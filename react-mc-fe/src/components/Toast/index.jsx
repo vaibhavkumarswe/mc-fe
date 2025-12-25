@@ -1,7 +1,9 @@
-import { useState, useRef } from "react";
+import { useState, useRef, use } from "react";
 import "./styles.css";
+import { useNavigate } from "react-router-dom";
 
 const Toast = () => {
+  const navigate = useNavigate();
   const [toasts, setToasts] = useState([]);
   const timersRef = useRef([]);
 
@@ -22,7 +24,14 @@ const Toast = () => {
   };
 
   return (
-    <div>
+    <div className="mx-auto max-w-7xl px-4 py-10 h-screen">
+      {/* back button */}
+      <button
+        className="mb-4 px-4 py-2 bg-blue-500 text-white rounded"
+        onClick={() => navigate(-1)}
+      >
+        Back
+      </button>
       <h2>This is a Toast Component</h2>
       <div className="flex flex-col fixed top-10 right-5">
         {toasts?.map((toast) => {

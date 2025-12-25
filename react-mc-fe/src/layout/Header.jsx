@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 const menuItems = [
-  { label: "Profile", href: "/profile" },
-  { label: "Settings", href: "/settings" },
-  { label: "Dashboard", href: "/dashboard" },
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Header() {
