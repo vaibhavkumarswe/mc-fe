@@ -15,11 +15,11 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img
-            src="/logo/logo.png"
+            src="/logo/logo.jpeg"
             alt="Logo"
             className="h-8 w-8"
           />
-          <span className="text-lg font-semibold">MyApp</span>
+          <span className="text-lg font-semibold">Vaibhav Kumar</span>
         </div>
 
         {/* Right Side */}

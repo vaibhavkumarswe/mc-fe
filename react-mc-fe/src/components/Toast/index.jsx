@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Toast = () => {
   const navigate = useNavigate();
+
   const [toasts, setToasts] = useState([]);
   const timersRef = useRef([]);
 
