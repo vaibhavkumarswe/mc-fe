@@ -13,5 +13,10 @@ export const menuItems = [
     label: "Stepper",
     description: "This is a Stepper Component",
     path: "/stepper",
-  }
+  },
+  {
+    label: "Pagination",
+    description: "This is a Pagination Component",
+    path: "/pagination",
+  },
 ];
