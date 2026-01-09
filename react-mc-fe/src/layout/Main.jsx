@@ -14,7 +14,7 @@ function Main() {
         {menuItems.map((item, index) => (
           <div
             key={index}
-            className="mb-4 border p-4 rounded shadow-md w-60"
+            className="mb-4 border p-4 rounded shadow-md w-60 flex-grow cursor-pointer hover:bg-gray-100"
             onClick={() => navigate(item.path)}
           >
             <h2 className="text-xl font-semibold">{item.label}</h2>
