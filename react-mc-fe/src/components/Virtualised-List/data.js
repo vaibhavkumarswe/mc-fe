@@ -1,0 +1,1 @@
+export const List = Array.from({ length: 100000 }, (_, index) => `Item ${index + 1}`);

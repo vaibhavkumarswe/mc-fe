@@ -3,6 +3,7 @@ import OTP from "../components/OTP/index";
 import Stepper from "../components/Stepper/index";
 import Pagination from "../components/Pagination";
 import Carousel from "../components/Carousel";
+import VirtualisedList from '../components/Virtualised-List/index';
 
 export const menuItems = [
   {
@@ -35,4 +36,10 @@ export const menuItems = [
     path: "/carousel",
     component: <Carousel />,
   },
+  {
+    label: 'Virtualized List',
+    description: 'This is a Virtualized List Component',
+    path: '/virtualized-list',
+    component: <VirtualisedList />,
+  }
 ];
