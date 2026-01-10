@@ -4,6 +4,7 @@ import Stepper from "../components/Stepper/index";
 import Pagination from "../components/Pagination";
 import Carousel from "../components/Carousel";
 import VirtualisedList from '../components/Virtualised-List/index';
+import StartRating from '../components/StarRating/index';
 
 export const menuItems = [
   {
@@ -41,5 +42,11 @@ export const menuItems = [
     description: 'This is a Virtualized List Component',
     path: '/virtualized-list',
     component: <VirtualisedList />,
+  },
+  {
+    label: "Start Rating",
+    description: "This is a Star Rating Component",
+    path: "/star-rating", 
+    component: <StartRating />,
   }
 ];
