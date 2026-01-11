@@ -5,6 +5,7 @@ import Pagination from "../components/Pagination";
 import Carousel from "../components/Carousel";
 import VirtualisedList from '../components/Virtualised-List/index';
 import StartRating from '../components/StarRating/index';
+import SearchBar from '../components/SearchBar/index';
 
 export const menuItems = [
   {
@@ -48,5 +49,11 @@ export const menuItems = [
     description: "This is a Star Rating Component",
     path: "/star-rating", 
     component: <StartRating />,
+  },
+  {
+    label: "Search Bar",
+    description: "This is a Search Bar Component",
+    path: "/search-bar",
+    component: <SearchBar />,
   }
 ];
