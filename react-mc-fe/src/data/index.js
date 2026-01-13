@@ -7,6 +7,7 @@ import VirtualisedList from '../components/Virtualised-List/index';
 import StartRating from '../components/StarRating/index';
 import SearchBar from '../components/SearchBar/index';
 import InfiniteScroll from '../components/InfiniteScroll/index';
+import ProgressBar from '../components/ProgressBar/index';
 
 export const menuItems = [
   {
@@ -62,5 +63,11 @@ export const menuItems = [
     description: "This is an Infinite Scroll Component",
     path: "/infinite-scroll",
     component: <InfiniteScroll />,
+  },
+  {
+    label: "Progress Bar",
+    description: "This is a Progress Bar Component",
+    path: "/progress-bar",
+    component: <ProgressBar />,
   }
 ];
