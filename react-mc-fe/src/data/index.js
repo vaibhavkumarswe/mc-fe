@@ -8,6 +8,7 @@ import StartRating from '../components/StarRating/index';
 import SearchBar from '../components/SearchBar/index';
 import InfiniteScroll from '../components/InfiniteScroll/index';
 import ProgressBar from '../components/ProgressBar/index';
+import Accordion from "../components/Accordion";
 
 export const menuItems = [
   {
@@ -69,5 +70,11 @@ export const menuItems = [
     description: "This is a Progress Bar Component",
     path: "/progress-bar",
     component: <ProgressBar />,
+  },
+  {
+    label: "Accordion",
+    description: "This is an Accordion Component",
+    path: "/accordion",
+    component: <Accordion />,
   }
 ];
