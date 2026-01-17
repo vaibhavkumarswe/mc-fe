@@ -9,7 +9,7 @@ export default function FileExplorerItem({ folderData }) {
   return (
     <div className="border-l-2 border-l-black pl-3 flex flex-col items-start m-2">
       <h5 className="cursor-pointer items-start" onClick={handleClick}>
-        {folderData?.type === "folder" ? "📁" : "📄"}
+        {folderData?.type === "folder" ? (showChildren ? "↓ 📂" : '→ 📁') : "📄"}
         <span className="m-2">{folderData.name}</span>
       </h5>
       {showChildren &&
