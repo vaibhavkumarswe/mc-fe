@@ -9,6 +9,8 @@ import SearchBar from '../components/SearchBar/index';
 import InfiniteScroll from '../components/InfiniteScroll/index';
 import ProgressBar from '../components/ProgressBar/index';
 import Accordion from "../components/Accordion";
+import Stopwatch from "../components/Stopwatch";
+import FileExplorer from '../components/FileExplorer/index';
 
 export const menuItems = [
   {
@@ -76,5 +78,17 @@ export const menuItems = [
     description: "This is an Accordion Component",
     path: "/accordion",
     component: <Accordion />,
+  },
+  {
+    label: "Stop Watch",
+    description: "This is a Stop Watch Component",
+    path: "/stop-watch",
+    component: <Stopwatch />,
+  },
+  {
+    label: "File Explorer",
+    description: "This is a File Explorer Component",
+    path: "/file-explorer",
+    component: <FileExplorer />,
   }
 ];
