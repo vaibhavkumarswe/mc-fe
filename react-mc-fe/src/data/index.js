@@ -11,6 +11,7 @@ import ProgressBar from '../components/ProgressBar/index';
 import Accordion from "../components/Accordion";
 import Stopwatch from "../components/Stopwatch";
 import FileExplorer from '../components/FileExplorer/index';
+import InteractiveShape from '../components/InteractiveShape/index';
 
 export const menuItems = [
   {
@@ -90,5 +91,11 @@ export const menuItems = [
     description: "This is a File Explorer Component",
     path: "/file-explorer",
     component: <FileExplorer />,
+  },
+  {
+    label: "Interactive Shape",
+    description: "This is an Interactive Shape Component",
+    path: "/interactive-shape",
+    component: <InteractiveShape />,
   }
 ];
