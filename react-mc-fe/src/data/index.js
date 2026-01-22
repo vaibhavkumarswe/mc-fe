@@ -12,6 +12,7 @@ import Accordion from "../components/Accordion";
 import Stopwatch from "../components/Stopwatch";
 import FileExplorer from '../components/FileExplorer/index';
 import InteractiveShape from '../components/InteractiveShape/index';
+import TicTacToe from '../components/TicTacToe/index';
 
 export const menuItems = [
   {
@@ -97,5 +98,11 @@ export const menuItems = [
     description: "This is an Interactive Shape Component",
     path: "/interactive-shape",
     component: <InteractiveShape />,
+  },
+  {
+    label: 'Tic Tac Toe',
+    description: 'This is a Tic Tac Toe Component',
+    path: '/tic-tac-toe',
+    component: <TicTacToe />,
   }
 ];
