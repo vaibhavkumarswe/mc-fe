@@ -3,16 +3,18 @@ import OTP from "../components/OTP/index";
 import Stepper from "../components/Stepper/index";
 import Pagination from "../components/Pagination";
 import Carousel from "../components/Carousel";
-import VirtualisedList from '../components/Virtualised-List/index';
-import StartRating from '../components/StarRating/index';
-import SearchBar from '../components/SearchBar/index';
-import InfiniteScroll from '../components/InfiniteScroll/index';
-import ProgressBar from '../components/ProgressBar/index';
+import VirtualisedList from "../components/Virtualised-List/index";
+import StartRating from "../components/StarRating/index";
+import SearchBar from "../components/SearchBar/index";
+import InfiniteScroll from "../components/InfiniteScroll/index";
+import ProgressBar from "../components/ProgressBar/index";
 import Accordion from "../components/Accordion";
 import Stopwatch from "../components/Stopwatch";
-import FileExplorer from '../components/FileExplorer/index';
-import InteractiveShape from '../components/InteractiveShape/index';
-import TicTacToe from '../components/TicTacToe/index';
+import FileExplorer from "../components/FileExplorer/index";
+import InteractiveShape from "../components/InteractiveShape/index";
+import TicTacToe from "../components/TicTacToe/index";
+import SnakeGame from "../components/SnakeGame/index";
+import Tabs from "../components/Tabs";
 
 export const menuItems = [
   {
@@ -46,15 +48,15 @@ export const menuItems = [
     component: <Carousel />,
   },
   {
-    label: 'Virtualized List',
-    description: 'This is a Virtualized List Component',
-    path: '/virtualized-list',
+    label: "Virtualized List",
+    description: "This is a Virtualized List Component",
+    path: "/virtualized-list",
     component: <VirtualisedList />,
   },
   {
     label: "Start Rating",
     description: "This is a Star Rating Component",
-    path: "/star-rating", 
+    path: "/star-rating",
     component: <StartRating />,
   },
   {
@@ -100,9 +102,21 @@ export const menuItems = [
     component: <InteractiveShape />,
   },
   {
-    label: 'Tic Tac Toe',
-    description: 'This is a Tic Tac Toe Component',
-    path: '/tic-tac-toe',
+    label: "Tic Tac Toe",
+    description: "This is a Tic Tac Toe Component",
+    path: "/tic-tac-toe",
     component: <TicTacToe />,
-  }
+  },
+  {
+    label: "Snake Game",
+    description: "This is a Snake Game Component",
+    path: "/snake-game",
+    component: <SnakeGame />,
+  },
+  {
+    label: "Tabs",
+    description: "This is a Tabs Component",
+    path: "/tabs",
+    component: <Tabs />,
+  },
 ];
