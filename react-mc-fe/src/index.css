@@ -17,7 +17,7 @@ code {
 }
 
 .container {
-  @apply mx-auto max-w-7xl px-4 py-10 h-screen flex flex-col items-start overflow-auto mb-10;
+  @apply mx-auto max-w-7xl px-4 py-10 h-screen flex flex-col overflow-auto mb-10;
 }
 
 .heading {

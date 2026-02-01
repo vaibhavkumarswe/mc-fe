@@ -15,7 +15,8 @@ import InteractiveShape from "../components/InteractiveShape/index";
 import TicTacToe from "../components/TicTacToe/index";
 import SnakeGame from "../components/SnakeGame/index";
 import Tabs from "../components/Tabs";
-import Todo from '../components/Todo/index';
+import Todo from "../components/Todo/index";
+import MemoryGame from "../components/MemoryGame/index";
 
 export const menuItems = [
   {
@@ -123,7 +124,13 @@ export const menuItems = [
   {
     label: "Todo",
     description: "This is a Todo Component",
-    path: "/todo",  
-    component: <Todo />,   
-  }
+    path: "/todo",
+    component: <Todo />,
+  },
+  {
+    label: "Memory Game",
+    description: "This is a Memory Game Component",
+    path: "/memory-game",
+    component: <MemoryGame />,
+  },
 ];
