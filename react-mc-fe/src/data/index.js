@@ -17,6 +17,8 @@ import SnakeGame from "../components/SnakeGame/index";
 import Tabs from "../components/Tabs";
 import Todo from "../components/Todo/index";
 import MemoryGame from "../components/MemoryGame/index";
+import Comments from "../components/Comments/index";
+import TrafficLights from "../components/TrafficLights";
 
 export const menuItems = [
   {
@@ -132,5 +134,17 @@ export const menuItems = [
     description: "This is a Memory Game Component",
     path: "/memory-game",
     component: <MemoryGame />,
+  },
+  {
+    label: "Comments",
+    description: "This is a Comments Component",
+    path: "/comments",
+    component: <Comments />,
+  },
+  {
+    label: "Traffic Lights",
+    description: "This is a Traffic Light Components",
+    path: "/traffic-lights",
+    component: <TrafficLights />,
   },
 ];

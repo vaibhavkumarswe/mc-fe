@@ -1,0 +1,8 @@
+{
+  "lights": [
+    { "key": "1", "label": "Green", "color": "green" },
+    { "key": "2", "label": "Yellow", "color": "yellow" },
+    { "key": "3", "label": "Red", "color": "red" },
+    { "key": "4", "label": "Blue", "color": "blue" }
+  ]
+}
