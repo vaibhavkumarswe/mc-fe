@@ -19,6 +19,7 @@ import Todo from "../components/Todo/index";
 import MemoryGame from "../components/MemoryGame/index";
 import Comments from "../components/Comments/index";
 import TrafficLights from "../components/TrafficLights";
+import MultiSelectDropdown from "../components/MultiSelectDropdown/index";
 
 export const menuItems = [
   {
@@ -146,5 +147,11 @@ export const menuItems = [
     description: "This is a Traffic Light Components",
     path: "/traffic-lights",
     component: <TrafficLights />,
+  },
+  {
+    label: "MultiSelect Dropdown",
+    description: "This is a MultiSelect Dropdown Component",
+    path: "/multiselect-dropdown",
+    component: <MultiSelectDropdown />,
   },
 ];
